@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "build": 1,
+  "publishedAt": "2026-11-25T12:50:00Z",
+  "ios": {
+    "url": "",
+    "sha256": "",
+    "minOS": "16.0"
+  },
+  "android": {
+    "url": "",
+    "sha256": "",
+    "minSdk": 26
+  },
+  "notesUrl": "notes/0.1.0.md"
+}
