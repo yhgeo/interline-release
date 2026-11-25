@@ -88,6 +88,8 @@
 | 现象 | 处理 |
 |---|---|
 | 设备一直 `pending` | 管理员还没批准；把设备码发过去 |
+| Android 没有“联网权限”开关 | `INTERNET` 是普通权限，系统不弹窗、不可手动授予；manifest 已声明 |
+| Android 报 Cleartext HTTP not permitted | 0.1.2 已加 `usesCleartextTraffic=true`；确认装的是 0.1.2 |
 | keyfile 过期 | 联网打开 App 自动续签；永久离线密钥不会续 |
 | sha256 不匹配 | 删除该包重新下载；不要手动改包 |
 | 网盘打不开 | 换浏览器/客户端，或等管理员更新 manifest 镜像 |
