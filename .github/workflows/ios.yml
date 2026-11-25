@@ -1,0 +1,79 @@
+name: ios
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ios.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - name: Checkout private source
+        uses: actions/checkout@v4
+        with:
+          repository: yhgeo/interline-reader
+          ssh-key: ${{ secrets.PRIVATE_REPO_KEY }}
+          path: src
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate project
+        run: |
+          cd src/apps/ios
+          xcodegen generate
+          ls -la Interline.xcodeproj
+
+      - name: Build unsigned IPA
+        run: |
+          set -e
+          cd src/apps/ios
+          xcodebuild \
+            -project Interline.xcodeproj \
+            -scheme Interline \
+            -sdk iphoneos \
+            -configuration Release \
+            -derivedDataPath build/dd \
+            -archivePath build/Interline.xcarchive \
+            archive \
+            MARKETING_VERSION=0.1.0 \
+            CURRENT_PROJECT_VERSION=1 \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            DEVELOPMENT_TEAM=""
+          APP="build/Interline.xcarchive/Products/Applications/Interline.app"
+          test -d "$APP"
+          /usr/libexec/PlistBuddy -c "Add :UIFileSharingEnabled bool true" "$APP/Info.plist" \
+            || /usr/libexec/PlistBuddy -c "Set :UIFileSharingEnabled true" "$APP/Info.plist"
+          rm -rf build/Payload
+          mkdir -p build/Payload
+          cp -R "$APP" build/Payload/
+          rm -f build/Interline-0.1.0.ipa
+          (cd build && zip -qry Interline-0.1.0.ipa Payload)
+          rm -rf build/Payload
+          ls -lh build/Interline-0.1.0.ipa
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Interline-0.1.0-ipa
+          path: src/apps/ios/build/Interline-0.1.0.ipa
+
+      - name: Publish to Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          NOTES="GitHub Actions iOS 构建 $(date -u '+%Y-%m-%d %H:%M UTC') · ${GITHUB_SHA:0:7}"
+          gh release view ci-latest -R yhgeo/interline-release >/dev/null 2>&1 || \
+            gh release create ci-latest -R yhgeo/interline-release --title "CI 构建（最新）" --notes "$NOTES" --prerelease
+          gh release upload ci-latest -R yhgeo/interline-release src/apps/ios/build/Interline-0.1.0.ipa --clobber
+          gh release edit ci-latest -R yhgeo/interline-release --notes "$NOTES"
