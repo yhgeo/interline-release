@@ -8,7 +8,8 @@
 
 | 平台 | 下载 |
 |---|---|
-| Android 0.1.4 | [Interline-0.1.4.apk](https://github.com/yhgeo/interline-release/releases/download/v0.1.4/Interline-0.1.4.apk) |
+| Android 0.1.4 稳定 | [Interline-0.1.4.apk](https://github.com/yhgeo/interline-release/releases/download/v0.1.4/Interline-0.1.4.apk) |
+| Android 0.2.0-alpha1（旧壳） | [Interline-0.2.0.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.0-alpha1/Interline-0.2.0.apk) |
 | iOS 0.1.4 | [Interline-0.1.4.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.1.4/Interline-0.1.4.ipa) |
 
 安装包生成后，`latest.json` 会指向最新版本。
