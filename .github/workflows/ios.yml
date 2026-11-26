@@ -2,6 +2,10 @@ name: ios
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ios.yml"
 
 permissions:
   contents: write
