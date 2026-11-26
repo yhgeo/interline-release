@@ -1,11 +1,8 @@
 name: ios
 
 on:
+  # 只手动触发：push 再触发一次会出现两个排队任务，白等 macOS runner
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/ios.yml"
 
 permissions:
   contents: write
