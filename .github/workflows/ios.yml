@@ -1,6 +1,6 @@
 name: ios
 
-# build trigger 0.2.20 legacy
+# build trigger 0.2.20 legacy fix1
 
 on:
   workflow_dispatch:
