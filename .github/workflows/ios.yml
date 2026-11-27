@@ -1,9 +1,13 @@
 name: ios
 
-# build trigger 0.2.46
+# build trigger 0.2.47
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ios.yml"
 
 permissions:
   contents: write
@@ -41,8 +45,8 @@ jobs:
             -derivedDataPath build/dd \
             -archivePath build/Interline.xcarchive \
             archive \
-            MARKETING_VERSION=0.2.46 \
-            CURRENT_PROJECT_VERSION=246 \
+            MARKETING_VERSION=0.2.47 \
+            CURRENT_PROJECT_VERSION=247 \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
@@ -54,16 +58,16 @@ jobs:
           rm -rf build/Payload
           mkdir -p build/Payload
           cp -R "$APP" build/Payload/
-          rm -f build/Interline-0.2.46.ipa
-          (cd build && zip -qry Interline-0.2.46.ipa Payload)
+          rm -f build/Interline-0.2.47.ipa
+          (cd build && zip -qry Interline-0.2.47.ipa Payload)
           rm -rf build/Payload
-          ls -lh build/Interline-0.2.46.ipa
+          ls -lh build/Interline-0.2.47.ipa
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: Interline-0.1.0-ipa
-          path: src/apps/ios/build/Interline-0.2.46.ipa
+          path: src/apps/ios/build/Interline-0.2.47.ipa
 
       - name: Publish to Release
         env:
@@ -73,5 +77,5 @@ jobs:
           NOTES="GitHub Actions iOS 构建 $(date -u '+%Y-%m-%d %H:%M UTC') · ${GITHUB_SHA:0:7}"
           gh release view ci-latest -R yhgeo/interline-release >/dev/null 2>&1 || \
             gh release create ci-latest -R yhgeo/interline-release --title "CI 构建（最新）" --notes "$NOTES" --prerelease
-          gh release upload ci-latest -R yhgeo/interline-release src/apps/ios/build/Interline-0.2.46.ipa --clobber
+          gh release upload ci-latest -R yhgeo/interline-release src/apps/ios/build/Interline-0.2.47.ipa --clobber
           gh release edit ci-latest -R yhgeo/interline-release --notes "$NOTES"
