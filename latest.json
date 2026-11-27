@@ -1,10 +1,10 @@
 {
   "version": "0.2.10",
   "build": 210,
-  "publishedAt": "2026-11-27T11:41:15.783Z",
+  "publishedAt": "2026-11-27T11:53:15.625Z",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.29/Interline-0.2.29.ipa",
-    "sha256": "f2e87f2c4f6136076edb3a74b11b5f4bd7061f4cb0e780600cab28a7a43a0252",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.30/Interline-0.2.30.ipa",
+    "sha256": "8d85d49f216437669ee650c44bf21be14a861cff4a152d7ea40fc56fcf58cef8",
     "minOS": "16.0"
   },
   "android": {
