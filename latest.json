@@ -2,11 +2,11 @@
   "version": "0.3.7",
   "build": 307,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T11:20:00.000Z",
+  "publishedAt": "2026-11-28T11:45:00.000Z",
   "notes": "iOS 0.3.7：服务端按正文/评论/模块类型限制仅服务器导入；iOS 模块包与时间线通用框架。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.7-ios/Interline-0.3.7.ipa",
-    "sha256": "fc875e8e36be0083d29c0587a0ab03c18eb66e1970472fe90232ad8871ee5242",
+    "sha256": "1d78c3ae59e42aba1b0283eced7f6e75f27d0bc84e3268b515bb1ef435f0bd1c",
     "minOS": "16.0"
   },
   "android": {
