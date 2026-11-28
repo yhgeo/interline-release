@@ -1,18 +1,18 @@
 {
-  "version": "0.2.65",
-  "build": 265,
-  "versionCode": 265,
-  "publishedAt": "2026-11-28T06:05:00.000Z",
-  "notes": "iOS 0.2.65 / Android 0.2.62：真·多书内核，书库可切书，每本书独立目录/进度/CEK/正文/评论卷；服务端新增《玄鉴仙族》。",
+  "version": "0.2.66",
+  "build": 266,
+  "versionCode": 266,
+  "publishedAt": "2026-11-28T06:15:00.000Z",
+  "notes": "iOS 0.2.66 / Android 0.2.63：多书切换竞态收尾，切书丢弃旧书异步结果；玄鉴仙族可直接切换。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.65-ios/Interline-0.2.65.ipa",
-    "sha256": "194ef806ff05e1a35be2dad36faef74f49bbd41dbbe0719b407dcfd42ca15cc6",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.66-ios/Interline-0.2.66.ipa",
+    "sha256": "905d927796d8835ee0246ae9e0a305ea6babb5307a396fbda9f5acc6f86766b4",
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.62/Interline-0.2.62.apk",
-    "sha256": "d33983f547cc9912d50b4523701a5462d5d942b613808fd8a545c34efaa180f9",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.63/Interline-0.2.63.apk",
+    "sha256": "433bfda186900d5dd2f2f95d19688ed93f7908adb62c546e230c5fb8f68a3ba2",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.2.65.md"
+  "notesUrl": "notes/0.2.66.md"
 }
