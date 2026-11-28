@@ -2,11 +2,11 @@
   "version": "0.4.1",
   "build": 401,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T12:28:00.000Z",
+  "publishedAt": "2026-11-28T12:42:00.000Z",
   "notes": "iOS 0.4.1：模块/时间线改为内嵌阅读页；服务器关闭下载时不再出现假进度。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.1-ios/Interline-0.4.1.ipa",
-    "sha256": "fed7ed131e4da81b67120f8e2be7f2b64a217160a0bc755de4347eba2b4c088a",
+    "sha256": "7b179925ea0463cd20627716732a5090497b8b9bfc538b0ea8258932c19f41b3",
     "minOS": "16.0"
   },
   "android": {
