@@ -2,11 +2,11 @@
   "version": "0.3.6",
   "build": 306,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T11:05:00.000Z",
+  "publishedAt": "2026-11-28T11:20:00.000Z",
   "notes": "iOS 0.3.6：跨书 JDK4 本地导入按包内 bookId 定位；服务端全局下载次数与仅服务器下载模式；玄鉴网盘地址更新。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.6-ios/Interline-0.3.6.ipa",
-    "sha256": "1765d4a0dfe6d663cd93ee59e6896fe1529fe327df63fd5fdc083d8ef5adee7e",
+    "sha256": "fc875e8e36be0083d29c0587a0ab03c18eb66e1970472fe90232ad8871ee5242",
     "minOS": "16.0"
   },
   "android": {
