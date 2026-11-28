@@ -1,11 +1,11 @@
 {
-  "version": "0.3.6",
-  "build": 306,
+  "version": "0.3.7",
+  "build": 307,
   "versionCode": 300,
   "publishedAt": "2026-11-28T11:20:00.000Z",
-  "notes": "iOS 0.3.6：跨书 JDK4 本地导入按包内 bookId 定位；服务端全局下载次数与仅服务器下载模式；玄鉴网盘地址更新。",
+  "notes": "iOS 0.3.7：服务端按正文/评论/模块类型限制仅服务器导入；iOS 模块包与时间线通用框架。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.6-ios/Interline-0.3.6.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.7-ios/Interline-0.3.7.ipa",
     "sha256": "fc875e8e36be0083d29c0587a0ab03c18eb66e1970472fe90232ad8871ee5242",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.3.6.md"
+  "notesUrl": "notes/0.3.7.md"
 }

@@ -9,7 +9,7 @@
 | 平台 | 下载 |
 |---|---|
 | Android 0.3.0 | [Interline-0.3.0.apk](https://github.com/yhgeo/interline-release/releases/download/v0.3.0/Interline-0.3.0.apk) |
-| iOS 0.3.6 | [Interline-0.3.6.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.3.6-ios/Interline-0.3.6.ipa) |
+| iOS 0.3.7 | [Interline-0.3.7.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.3.7-ios/Interline-0.3.7.ipa) |
 
 安装包生成后，`latest.json` 会指向最新版本。
 
