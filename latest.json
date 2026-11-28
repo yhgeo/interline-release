@@ -1,18 +1,18 @@
 {
-  "version": "0.2.72",
-  "build": 272,
-  "versionCode": 272,
-  "publishedAt": "2026-11-28T07:52:00.000Z",
-  "notes": "iOS 0.2.72 / Android 0.2.69：手动更新正文/评论、CEK 离线有效期、分书使用记录、数据包命名与标签、玄鉴正文用原明文包重打。",
+  "version": "0.2.73",
+  "build": 273,
+  "versionCode": 273,
+  "publishedAt": "2026-11-28T08:17:00.000Z",
+  "notes": "iOS 0.2.73 / Android 0.2.70：中文包下载修复、单书吊销停读、管理页授权精简。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.72-ios/Interline-0.2.72.ipa",
-    "sha256": "7a8bfbc609776ab3a364c2032d9cbde9ea9a28bcdfb7f0ee66ca2f9a644e3777",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.73-ios/Interline-0.2.73.ipa",
+    "sha256": "6b42dd039e494fcd229657730f19ae52c955848d9196577e069c281a43c7b5b3",
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.69/Interline-0.2.69.apk",
-    "sha256": "3cad8a23836e6a950b41d448a4e73cf0beca563d436c3698e11c7e106b1a58e3",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.70/Interline-0.2.70.apk",
+    "sha256": "ce31849c6ced77fb8e7dfc30768309a977fe139bc50dd54baba7baacee9da97f",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.2.72.md"
+  "notesUrl": "notes/0.2.73.md"
 }
