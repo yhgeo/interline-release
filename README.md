@@ -8,8 +8,8 @@
 
 | 平台 | 下载 |
 |---|---|
-| Android 0.2.61 | [Interline-0.2.61.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.61/Interline-0.2.61.apk) |
-| iOS 0.2.64 | [Interline-0.2.64.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.2.64-ios/Interline-0.2.64.ipa) |
+| Android 0.2.62 | [Interline-0.2.62.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.62/Interline-0.2.62.apk) |
+| iOS 0.2.65 | [Interline-0.2.65.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.2.65-ios/Interline-0.2.65.ipa) |
 
 安装包生成后，`latest.json` 会指向最新版本。
 
@@ -40,7 +40,7 @@
 
 1. 打开 App，书库会从服务端 `/v1/books` 拉取书目。
 2. 点一本书进入详情，App 拉取该书 `manifest.json`，显示书名、版本、正文包、评论包。
-3. 多书内核正在改造，当前服务端只挂了一本《诡秘之主》。
+3. 当前服务端挂了两本：《诡秘之主》《玄鉴仙族》；每本书独立目录、进度、CEK、评论卷，切书不串数据。
 
 ### 4. 下载正文
 
