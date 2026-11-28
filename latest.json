@@ -2,11 +2,11 @@
   "version": "0.3.5",
   "build": 305,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T10:35:00.000Z",
+  "publishedAt": "2026-11-28T11:05:00.000Z",
   "notes": "iOS 0.3.5：未授权下载/导入拦截与准确报错、JDK4 本地导入、正文下载进度、面板详情背景区分。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.5-ios/Interline-0.3.5.ipa",
-    "sha256": "18a68f2c587b79f68ef2c217ba278b2967bf3d62caa4cdd96c36f2c7016d5a35",
+    "sha256": "1765d4a0dfe6d663cd93ee59e6896fe1529fe327df63fd5fdc083d8ef5adee7e",
     "minOS": "16.0"
   },
   "android": {
