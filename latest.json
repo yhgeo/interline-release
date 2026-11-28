@@ -2,11 +2,11 @@
   "version": "0.4.8",
   "build": 408,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T14:50:00.000Z",
+  "publishedAt": "2026-11-28T15:45:00.000Z",
   "notes": "iOS 0.4.8：双书时间线 v2 包上线；traits[] 通用渲染；新增书 profile 驱动。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.8-ios/Interline-0.4.8.ipa",
-    "sha256": "bfa61550bef2a7b1cc99cd1cf8f0c3269f6c329fe047f3eebcfb162c6b2e698a",
+    "sha256": "0f46cbf0430fb6a994c14bdf93424141edf12ef3d62278d8845d5861382b5f07",
     "minOS": "16.0"
   },
   "android": {
