@@ -2,11 +2,11 @@
   "version": "0.3.1",
   "build": 301,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T09:20:00.000Z",
+  "publishedAt": "2026-11-28T09:45:00.000Z",
   "notes": "iOS 0.3.1：书详情按书隔离、阅读标题切换去卡顿、设置数据总占用、删除透规则、亮色主题与目录样式修复；Android 保持 0.3.0。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.1-ios/Interline-0.3.1.ipa",
-    "sha256": "86fd59fc22d05b430e607c6946327b907e71f7ba0f1d1c2d2655259605ddb8c3",
+    "sha256": "69bb5d8455487f82ce80f9011a63117794a796fa17eefc7125256cccebaa8670",
     "minOS": "16.0"
   },
   "android": {
