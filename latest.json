@@ -1,7 +1,7 @@
 {
   "version": "0.4.11",
   "build": 411,
-  "versionCode": 412,
+  "versionCode": 413,
   "publishedAt": "2026-11-28T17:10:00.000Z",
   "notes": "iOS 0.4.11：模块/时间线列表持久化；删除诡秘独立模块；清理包目录与 JDK3/口令兼容。",
   "ios": {
@@ -10,8 +10,8 @@
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.12/Interline-0.4.12.apk",
-    "sha256": "26207b6a30a85556988d24d20ea2b99ea44ba0a783f40893dffdd65306f3abe2",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.13/Interline-0.4.13.apk",
+    "sha256": "6d9a09e2b783f02c955183d69b5815f8e8b013798fb3de13ba99605fa036b41d",
     "minSdk": 26
   },
   "notesUrl": "notes/0.4.11.md"
