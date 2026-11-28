@@ -1,11 +1,11 @@
 {
-  "version": "0.3.8",
-  "build": 308,
+  "version": "0.3.9",
+  "build": 309,
   "versionCode": 300,
   "publishedAt": "2026-11-28T11:58:00.000Z",
-  "notes": "iOS 0.3.8：服务端设置类型取消即时保存；诡秘/玄鉴时间线与模块包部署，供 iOS 模块框架测试。",
+  "notes": "iOS 0.3.9：服务端设置文案修正并恢复保存按钮；书详情新增模块/时间线卡片与阅读入口。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.8-ios/Interline-0.3.8.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.9-ios/Interline-0.3.9.ipa",
     "sha256": "66eb4563715420b7f29bbad441291fca26c24ad1ab795f965aa1b5bdb1a8566b",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.3.8.md"
+  "notesUrl": "notes/0.3.9.md"
 }
