@@ -1,11 +1,11 @@
 {
-  "version": "0.4.6",
-  "build": 406,
+  "version": "0.4.7",
+  "build": 407,
   "versionCode": 300,
   "publishedAt": "2026-11-28T14:30:00.000Z",
-  "notes": "iOS 0.4.6：兼容新目录 volume 字段；世次显示按书的数据能力自动开关；世代基准通用化；新书无需改客户端。",
+  "notes": "iOS 0.4.7：删除玄鉴独立人物包；移除旧版兼容代码；模块时间线通用化；同步文档与 Android 参考指南。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.6-ios/Interline-0.4.6.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.7-ios/Interline-0.4.7.ipa",
     "sha256": "e279781627fb53617be502a3b75fcb90643d017aa1bb3807e1ed9eda5300ca5c",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.6.md"
+  "notesUrl": "notes/0.4.7.md"
 }
