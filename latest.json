@@ -1,12 +1,12 @@
 {
-  "version": "0.2.74",
-  "build": 274,
+  "version": "0.2.75",
+  "build": 275,
   "versionCode": 274,
-  "publishedAt": "2026-11-28T08:52:00.000Z",
-  "notes": "iOS 0.2.74 / Android 0.2.71：每书缓存与授权状态分离、已下载文件上报、评论包名去书名、单书 CEK 唯一。",
+  "publishedAt": "2026-11-28T08:58:00.000Z",
+  "notes": "iOS 0.2.75 / Android 0.2.71：每书授权状态分离、每书缓存、已下载文件上报、评论包名去书名、CEK 唯一。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.74-ios/Interline-0.2.74.ipa",
-    "sha256": "11a3f0073875a7c1334c436a4cffd97f695bf597c4f1bdc633e8a927d43e06c1",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.75-ios/Interline-0.2.75.ipa",
+    "sha256": "8a82ddc6aae8980feaa42a7b1cf023c034514fb04251645badc64788b3286c20",
     "minOS": "16.0"
   },
   "android": {
@@ -14,5 +14,5 @@
     "sha256": "6ec8da0e796552180eca19447ced96429a8ab13445d1bce5327530220142f66b",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.2.74.md"
+  "notesUrl": "notes/0.2.75.md"
 }
