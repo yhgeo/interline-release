@@ -1,11 +1,11 @@
 {
-  "version": "0.4.9",
-  "build": 409,
+  "version": "0.4.10",
+  "build": 410,
   "versionCode": 300,
   "publishedAt": "2026-11-28T16:22:00.000Z",
-  "notes": "iOS 0.4.9：属性标签可隐藏并按 kind 自定义；默认隐藏标签名前缀。",
+  "notes": "iOS 0.4.10：客户端识别 manifest.packages.timeline；诡秘新时间线包可直接服务端下发。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.9-ios/Interline-0.4.9.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.10-ios/Interline-0.4.10.ipa",
     "sha256": "b9d6ee05fa2cee36af23d7b532c2ee0868893d0815a62ee0d6d402d3e16030fd",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.9.md"
+  "notesUrl": "notes/0.4.10.md"
 }
