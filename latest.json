@@ -3,7 +3,7 @@
   "build": 269,
   "versionCode": 269,
   "publishedAt": "2026-11-28T06:58:00.000Z",
-  "notes": "iOS 0.2.69 / Android 0.2.66：玄鉴目录正确分卷、目录 key 修复、评论卷自动换新；管理页授权弹窗修复。",
+  "notes": "iOS 0.2.69 / Android 0.2.67：玄鉴目录正确分卷、目录 key 修复、评论卷自动换新；管理页授权弹窗修复。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.69-ios/Interline-0.2.69.ipa",
     "sha256": "1862f31f21b718bef7c7e840ae109dd6ad53d0d92f83beeca33c6b327df26557",
