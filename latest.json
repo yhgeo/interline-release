@@ -2,11 +2,11 @@
   "version": "0.3.2",
   "build": 302,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T09:45:00.000Z",
+  "publishedAt": "2026-11-28T09:58:00.000Z",
   "notes": "iOS 0.3.2：详情页不再自动下载正文、评论卷隔离、章节顶栏即时更新、评论包更新后清章节缓存、移除服务端已下载文件展示；Android 保持冻结。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.2-ios/Interline-0.3.2.ipa",
-    "sha256": "69bb5d8455487f82ce80f9011a63117794a796fa17eefc7125256cccebaa8670",
+    "sha256": "93054f611c91add8c6e252a2973c75e3768c9ce18ac3e1057233dc4e59c88bb5",
     "minOS": "16.0"
   },
   "android": {
