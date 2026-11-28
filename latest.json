@@ -2,11 +2,11 @@
   "version": "0.4.9",
   "build": 409,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T15:45:00.000Z",
+  "publishedAt": "2026-11-28T16:22:00.000Z",
   "notes": "iOS 0.4.9：属性标签可隐藏并按 kind 自定义；默认隐藏标签名前缀。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.9-ios/Interline-0.4.9.ipa",
-    "sha256": "0f46cbf0430fb6a994c14bdf93424141edf12ef3d62278d8845d5861382b5f07",
+    "sha256": "b9d6ee05fa2cee36af23d7b532c2ee0868893d0815a62ee0d6d402d3e16030fd",
     "minOS": "16.0"
   },
   "android": {
