@@ -2,11 +2,11 @@
   "version": "0.4.0",
   "build": 400,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T12:20:00.000Z",
+  "publishedAt": "2026-11-28T12:28:00.000Z",
   "notes": "iOS 0.4.0：服务端设置语义改为限制服务器下发类型；本地/网盘导入不受限；书详情显示模块/时间线。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.0-ios/Interline-0.4.0.ipa",
-    "sha256": "a89555806b068853dfb60972e951519a2d1eea652541e14c4aaa80feead96033",
+    "sha256": "fed7ed131e4da81b67120f8e2be7f2b64a217160a0bc755de4347eba2b4c088a",
     "minOS": "16.0"
   },
   "android": {
