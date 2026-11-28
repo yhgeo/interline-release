@@ -1,7 +1,7 @@
 {
   "version": "0.2.75",
   "build": 275,
-  "versionCode": 274,
+  "versionCode": 271,
   "publishedAt": "2026-11-28T08:58:00.000Z",
   "notes": "iOS 0.2.75 / Android 0.2.71：每书授权状态分离、每书缓存、已下载文件上报、评论包名去书名、CEK 唯一。",
   "ios": {
