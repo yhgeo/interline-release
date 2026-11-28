@@ -2,11 +2,11 @@
   "version": "0.4.10",
   "build": 410,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T16:22:00.000Z",
+  "publishedAt": "2026-11-28T16:45:00.000Z",
   "notes": "iOS 0.4.10：客户端识别 manifest.packages.timeline；诡秘新时间线包可直接服务端下发。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.10-ios/Interline-0.4.10.ipa",
-    "sha256": "b9d6ee05fa2cee36af23d7b532c2ee0868893d0815a62ee0d6d402d3e16030fd",
+    "sha256": "bbc4c889b1746b27434c9c4291a8c7ab6280d97274824a040db1f0359443dc4c",
     "minOS": "16.0"
   },
   "android": {
