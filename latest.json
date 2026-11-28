@@ -2,11 +2,11 @@
   "version": "0.3.3",
   "build": 303,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T09:58:00.000Z",
+  "publishedAt": "2026-11-28T10:25:00.000Z",
   "notes": "iOS 0.3.3：评论本地持久化恢复并按书隔离、设备码移到首页、服务端消息可达 iOS、设备时间线日志、正式版/体验版计数、隐藏设备一键删除。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.3-ios/Interline-0.3.3.ipa",
-    "sha256": "93054f611c91add8c6e252a2973c75e3768c9ce18ac3e1057233dc4e59c88bb5",
+    "sha256": "bcaff683176f9a8c1e2bd593ca696591a7e66f819f86112f2ca89f2a6a94fc81",
     "minOS": "16.0"
   },
   "android": {
