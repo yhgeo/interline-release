@@ -2,11 +2,11 @@
   "version": "0.4.3",
   "build": 403,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T13:00:00.000Z",
+  "publishedAt": "2026-11-28T13:20:00.000Z",
   "notes": "iOS 0.4.3：仅支持新版 chapter 时间线；章节页只显示年份+人物；玄鉴正文/评论/时间线/人物包更新到 2026.11.28.2。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.3-ios/Interline-0.4.3.ipa",
-    "sha256": "237afccf5226dff7cf3c2f194324bf102b167a6d8ee15ed82892485296439bc1",
+    "sha256": "16fc6d5ee10d8a213ef5b9a33c215e5496e2a2c0173c184438d59fc8dec8c123",
     "minOS": "16.0"
   },
   "android": {
