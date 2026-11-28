@@ -1,11 +1,11 @@
 {
-  "version": "0.4.4",
-  "build": 404,
+  "version": "0.4.5",
+  "build": 405,
   "versionCode": 300,
   "publishedAt": "2026-11-28T13:45:00.000Z",
-  "notes": "iOS 0.4.4：玄鉴评论恢复分卷；章内时间线人物卡片默认开启。",
+  "notes": "iOS 0.4.5：修复目录卡顿；新时间线包统一 chapter 字段；强制顶栏和章内时间线开关；玄鉴评论保持分卷。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.4-ios/Interline-0.4.4.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.5-ios/Interline-0.4.5.ipa",
     "sha256": "2b880c7782ed2d77ffbf6012db0028580e468c449d67b1117fef9d059c50303d",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.4.md"
+  "notesUrl": "notes/0.4.5.md"
 }
