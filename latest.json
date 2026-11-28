@@ -1,11 +1,11 @@
 {
-  "version": "0.4.5",
-  "build": 405,
+  "version": "0.4.6",
+  "build": 406,
   "versionCode": 300,
   "publishedAt": "2026-11-28T13:58:00.000Z",
-  "notes": "iOS 0.4.5：修复目录卡顿；新时间线包统一 chapter 字段；强制顶栏和章内时间线开关；玄鉴评论保持分卷。",
+  "notes": "iOS 0.4.6：兼容新目录 volume 字段；世次显示按书的数据能力自动开关；世代基准通用化；新书无需改客户端。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.5-ios/Interline-0.4.5.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.6-ios/Interline-0.4.6.ipa",
     "sha256": "9154eef0a81f64f56b2a281804cc9e160afdb88d5b48934f154be997ee782080",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.5.md"
+  "notesUrl": "notes/0.4.6.md"
 }
