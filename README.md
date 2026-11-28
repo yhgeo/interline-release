@@ -11,7 +11,7 @@
 | 平台 | 当前版本 | 安装包 |
 |---|---|---|
 | iOS | 0.4.11 | [Interline-0.4.11.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.4.11-ios/Interline-0.4.11.ipa) |
-| Android | 0.4.14 | [Interline-0.4.14.apk](https://github.com/yhgeo/interline-release/releases/download/v0.4.14/Interline-0.4.14.apk) |
+| Android | 0.4.15 | [Interline-0.4.15.apk](https://github.com/yhgeo/interline-release/releases/download/v0.4.15/Interline-0.4.15.apk) |
 
 App 内的「检查更新」读本仓的 `latest.json`。也可直接到 [Releases](https://github.com/yhgeo/interline-release/releases) 下载。
 
@@ -121,6 +121,7 @@ App 支持从系统文件选择器导入 JDK4 加密数据包（正文 / 评论 
 | 按钮上显示「无法连接服务器」 | 检查网络；已下载正文的书仍可离线阅读 |
 | 按钮上显示「服务器已关闭…下载」 | 该类包暂时不开放服务器下发，等管理员恢复或用本地导入 |
 | 设备码在哪 | 首页（书架）最底部 |
+| 服务端加了新书但书架没显示 | 点首页标题栏的刷新按钮（iOS 下拉刷新）；书详情页的「刷新授权」不刷书目 |
 | 导入包后没段评 | 确认导入的是 JDK4 包；到对应书详情页确认状态 |
 | 第一章段评没出来 | 刷新正文或重进章节（评论包挂载后会自动刷新） |
 | sha256 不匹配 | 删除该包重新下载，不要手动改包 |
