@@ -1,11 +1,11 @@
 {
-  "version": "0.3.4",
-  "build": 304,
+  "version": "0.3.5",
+  "build": 305,
   "versionCode": 300,
   "publishedAt": "2026-11-28T10:35:00.000Z",
-  "notes": "iOS 0.3.4：服务端通知全局可显示、设备码移到首页底部；管理面板日志关闭修复、正式/体验计数并入已授权小字、隐藏工具移入已隐藏页。",
+  "notes": "iOS 0.3.5：未授权下载/导入拦截与准确报错、JDK4 本地导入、正文下载进度、面板详情背景区分。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.4-ios/Interline-0.3.4.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.5-ios/Interline-0.3.5.ipa",
     "sha256": "18a68f2c587b79f68ef2c217ba278b2967bf3d62caa4cdd96c36f2c7016d5a35",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.3.4.md"
+  "notesUrl": "notes/0.3.5.md"
 }
