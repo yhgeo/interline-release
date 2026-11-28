@@ -1,16 +1,18 @@
 {
-  "version": "0.2.63",
-  "build": 263,
-  "publishedAt": "2026-11-28T04:30:34.895Z",
+  "version": "0.2.64",
+  "build": 264,
+  "versionCode": 264,
+  "publishedAt": "2026-11-28T05:02:00.000Z",
+  "notes": "iOS 0.2.64：主题文字色全量修复（深色手机 + 纸白/米黄主题不再白字看不清）；更新检查兼容 build/versionCode。Android 0.2.60：同步更新检查修复。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.63-ios/Interline-0.2.63.ipa",
-    "sha256": "42b0f688b874b61b5e505672b8b625c94cdabcf5b94567e48556c40dc04a3d53",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.64-ios/Interline-0.2.64.ipa",
+    "sha256": "f01a47f28eaa90800b3f19ca4e2b2e8245bbc056a38b352835d919490da70834",
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.59/Interline-0.2.59.apk",
-    "sha256": "cda0b6edb9752185a04c7abca9939a743f75ec0d692881ee60e0686252cd6423",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.60/Interline-0.2.60.apk",
+    "sha256": "ad548edd98870d08ccfc8ae1f04780aa25ced87dcb454534e304e556cae6e0a7",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.2.10.md"
+  "notesUrl": "notes/0.2.64.md"
 }

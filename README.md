@@ -8,9 +8,8 @@
 
 | 平台 | 下载 |
 |---|---|
-| Android 0.2.59 | [Interline-0.2.59.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.59/Interline-0.2.59.apk) |
-| Android 0.2.0-alpha1（旧壳） | [Interline-0.2.0.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.0-alpha1/Interline-0.2.0.apk) |
-| iOS 0.2.1 | [Interline-0.2.1.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.2.1/Interline-0.2.1.ipa) |
+| Android 0.2.60 | [Interline-0.2.60.apk](https://github.com/yhgeo/interline-release/releases/download/v0.2.60/Interline-0.2.60.apk) |
+| iOS 0.2.64 | [Interline-0.2.64.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.2.64-ios/Interline-0.2.64.ipa) |
 
 安装包生成后，`latest.json` 会指向最新版本。
 
@@ -37,11 +36,11 @@
 
 体验 7 天，正式 365 天，永久默认 90 天可续 keyfile。离线超过租约，联网打开一次即可续签。
 
-### 3. 添加书
+### 3. 选择书
 
-1. 「书库」→「添加书籍」。
-2. 输入书号，例如 `qidian:1010868264`。
-3. App 拉取服务端 `manifest.json`，验签后显示书名、版本、正文包、评论包。
+1. 打开 App，书库会从服务端 `/v1/books` 拉取书目。
+2. 点一本书进入详情，App 拉取该书 `manifest.json`，显示书名、版本、正文包、评论包。
+3. 多书内核正在改造，当前服务端只挂了一本《诡秘之主》。
 
 ### 4. 下载正文
 
@@ -53,7 +52,7 @@
 
 ```text
 网盘：https://optea.lanzoub.com/b01i61kzoh
-密码：7pbg
+密码：6284
 ```
 
 1. 服务器下载失败，点「打开网盘」。
@@ -90,7 +89,7 @@
 |---|---|
 | 设备一直 `pending` | 管理员还没批准；把设备码发过去 |
 | Android 没有“联网权限”开关 | `INTERNET` 是普通权限，系统不弹窗、不可手动授予；manifest 已声明 |
-| Android 报 Cleartext HTTP not permitted | 0.1.2 已加 `usesCleartextTraffic=true`；确认装的是 0.1.2 |
+| Android 报 Cleartext HTTP not permitted | 0.2.x 已加 `usesCleartextTraffic=true`；确认装的是最新 APK |
 | keyfile 过期 | 联网打开 App 自动续签；永久离线密钥不会续 |
 | sha256 不匹配 | 删除该包重新下载；不要手动改包 |
 | 网盘打不开 | 换浏览器/客户端，或等管理员更新 manifest 镜像 |
