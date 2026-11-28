@@ -1,18 +1,18 @@
 {
   "version": "0.4.11",
   "build": 411,
-  "versionCode": 415,
-  "publishedAt": "2026-11-29T03:45:00.000Z",
-  "notes": "Android 0.4.15：书架刷新按钮，新增书可见。iOS 0.4.11：模块/时间线列表持久化、JDK4-only。",
+  "versionCode": 416,
+  "publishedAt": "2026-11-29T03:55:00.000Z",
+  "notes": "Android 0.4.16：修复未授权书可下载数据包的漏洞（服务端+客户端双端门禁）。iOS 0.4.11 功能对齐。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.11-ios/Interline-0.4.11.ipa",
     "sha256": "7b11fd5d004778239082f60425fb3356cb8c83f6608319b8e0c3ac0009d61585",
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.15/Interline-0.4.15.apk",
-    "sha256": "1c5c7601fda28084d66836b2dff63db43463d9a10414f4d5228b3fdc020cd54e",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.16/Interline-0.4.16.apk",
+    "sha256": "507af2cbeb9c5209512d1f52bbddcc226315d36f9cdd9e7ccde851f82aafe826",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.15.md"
+  "notesUrl": "notes/0.4.16.md"
 }

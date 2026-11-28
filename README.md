@@ -11,7 +11,7 @@
 | 平台 | 当前版本 | 安装包 |
 |---|---|---|
 | iOS | 0.4.11 | [Interline-0.4.11.ipa](https://github.com/yhgeo/interline-release/releases/download/v0.4.11-ios/Interline-0.4.11.ipa) |
-| Android | 0.4.15 | [Interline-0.4.15.apk](https://github.com/yhgeo/interline-release/releases/download/v0.4.15/Interline-0.4.15.apk) |
+| Android | 0.4.16 | [Interline-0.4.16.apk](https://github.com/yhgeo/interline-release/releases/download/v0.4.16/Interline-0.4.16.apk) |
 
 App 内的「检查更新」读本仓的 `latest.json`。也可直接到 [Releases](https://github.com/yhgeo/interline-release/releases) 下载。
 
