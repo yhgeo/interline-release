@@ -2,11 +2,11 @@
   "version": "0.4.7",
   "build": 407,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T14:30:00.000Z",
+  "publishedAt": "2026-11-28T14:50:00.000Z",
   "notes": "iOS 0.4.7：删除玄鉴独立人物包；移除旧版兼容代码；模块时间线通用化；同步文档与 Android 参考指南。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.7-ios/Interline-0.4.7.ipa",
-    "sha256": "e279781627fb53617be502a3b75fcb90643d017aa1bb3807e1ed9eda5300ca5c",
+    "sha256": "bfa61550bef2a7b1cc99cd1cf8f0c3269f6c329fe047f3eebcfb162c6b2e698a",
     "minOS": "16.0"
   },
   "android": {
