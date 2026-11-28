@@ -1,11 +1,11 @@
 {
-  "version": "0.3.9",
-  "build": 309,
+  "version": "0.4.0",
+  "build": 400,
   "versionCode": 300,
   "publishedAt": "2026-11-28T12:20:00.000Z",
-  "notes": "iOS 0.3.9：服务端设置文案修正并恢复保存按钮；书详情新增模块/时间线卡片与阅读入口。",
+  "notes": "iOS 0.4.0：服务端设置语义改为限制服务器下发类型；本地/网盘导入不受限；书详情显示模块/时间线。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.3.9-ios/Interline-0.3.9.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.0-ios/Interline-0.4.0.ipa",
     "sha256": "a89555806b068853dfb60972e951519a2d1eea652541e14c4aaa80feead96033",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.3.9.md"
+  "notesUrl": "notes/0.4.0.md"
 }
