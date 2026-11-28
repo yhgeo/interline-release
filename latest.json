@@ -1,11 +1,11 @@
 {
-  "version": "0.4.2",
-  "build": 402,
+  "version": "0.4.3",
+  "build": 403,
   "versionCode": 300,
   "publishedAt": "2026-11-28T13:00:00.000Z",
-  "notes": "iOS 0.4.2：时间线年份显示在顶栏；时间线/模块设置集中在数据 tab；兼容新 timeline.json 的 chapter 字段；玄鉴新时间线包已上传。",
+  "notes": "iOS 0.4.3：仅支持新版 chapter 时间线；章节页只显示年份+人物；玄鉴正文/评论/时间线/人物包更新到 2026.11.28.2。",
   "ios": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.2-ios/Interline-0.4.2.ipa",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.3-ios/Interline-0.4.3.ipa",
     "sha256": "237afccf5226dff7cf3c2f194324bf102b167a6d8ee15ed82892485296439bc1",
     "minOS": "16.0"
   },
@@ -14,5 +14,5 @@
     "sha256": "d196ed7af84d7b8b6d3f80b550d327577e1e959108e1dd4ab0f6b30ccfd15f7a",
     "minSdk": 26
   },
-  "notesUrl": "notes/0.4.2.md"
+  "notesUrl": "notes/0.4.3.md"
 }
