@@ -2,11 +2,11 @@
   "version": "0.4.4",
   "build": 404,
   "versionCode": 300,
-  "publishedAt": "2026-11-28T13:20:00.000Z",
+  "publishedAt": "2026-11-28T13:45:00.000Z",
   "notes": "iOS 0.4.4：玄鉴评论恢复分卷；章内时间线人物卡片默认开启。",
   "ios": {
     "url": "https://github.com/yhgeo/interline-release/releases/download/v0.4.4-ios/Interline-0.4.4.ipa",
-    "sha256": "16fc6d5ee10d8a213ef5b9a33c215e5496e2a2c0173c184438d59fc8dec8c123",
+    "sha256": "2b880c7782ed2d77ffbf6012db0028580e468c449d67b1117fef9d059c50303d",
     "minOS": "16.0"
   },
   "android": {
