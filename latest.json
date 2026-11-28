@@ -10,8 +10,8 @@
     "minOS": "16.0"
   },
   "android": {
-    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.66/Interline-0.2.66.apk",
-    "sha256": "5d3ade9cce47419543d7307557c863ae03ce353fa2acdf4a33768d350b61dc6a",
+    "url": "https://github.com/yhgeo/interline-release/releases/download/v0.2.67/Interline-0.2.67.apk",
+    "sha256": "7fd4385dbda539a863382a93e6bbc5736c671b920e78efa66c81f78464bd09e6",
     "minSdk": 26
   },
   "notesUrl": "notes/0.2.69.md"
